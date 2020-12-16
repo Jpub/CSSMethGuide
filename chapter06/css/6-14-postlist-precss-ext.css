@@ -1,0 +1,107 @@
+.bl_vertPosts {
+  /* css-wipe에는 스타일링 없음 */
+}
+
+.bl_vertPosts_item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bl_vertPosts_item:first-child {
+  padding-top: 0;
+}
+
+.bl_vertPosts_header {
+  margin-bottom: 10px;
+}
+
+.bl_vertPosts_date {
+  font-size: .875rem;
+}
+
+.bl_vertPosts_ttl {
+  text-decoration: none;
+}
+
+.bl_vertPosts_ttl:focus,
+.bl_vertPosts_ttl:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.bl_card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
+
+.bl_card_imgWrapper {
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.bl_card_imgWrapper > img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.bl_card_body {
+  padding: 15px;
+}
+
+.bl_card_body > *:last-child {
+  margin-bottom: 0;
+}
+
+.bl_card_ttl {
+  margin-bottom: 5px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.bl_card_txt {
+  color: #222;
+  font-weight: bold;
+}
+
+.bl_card_date {
+  font-size: .875rem;
+  color: #aaa;
+}
+
+.bl_cardUnit {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bl_cardUnit.bl_cardUnit__col3 {
+  margin-bottom: -30px;
+}
+
+.bl_cardUnit__col3 > .bl_card {
+  width: 31.707%;
+  margin-right: 2.43902%;
+  margin-bottom: 30px;
+}
+
+.bl_cardUnit__col3 > .bl_card:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .bl_cardUnit.bl_cardUnit__col3 {
+    margin-bottom: -20px;
+  }
+
+  .bl_cardUnit > .bl_card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

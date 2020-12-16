@@ -1,0 +1,20 @@
+.cta-area {
+  padding: 30px;
+  background-color: rgba(221, 116, 44, .05);
+  border: 1px solid #e25c00;
+  text-align: center;
+}
+
+.cta-area > *:last-child {
+  margin-bottom: 0;
+}
+
+.cta-area__title {
+  padding-bottom: 10px;
+  margin-top: -6px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid currentColor;
+  color: #e25c00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

@@ -1,0 +1,34 @@
+.bl_card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
+
+.bl_card_imgWrapper {
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.bl_card_imgWrapper > img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.bl_card_body {
+  padding: 15px;
+}
+
+.bl_card_body > *:last-child {
+  margin-bottom: 0;
+}
+
+.bl_card_ttl {
+  margin-bottom: 5px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.bl_card_txt {
+  color: #777;
+}

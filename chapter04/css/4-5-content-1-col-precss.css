@@ -1,0 +1,60 @@
+.bl_media {
+  display: flex;
+  align-items: center;
+}
+
+.bl_media_imgWrapper {
+  flex: 0 1 27.58333%;
+  margin-right: 3.33333%;
+}
+
+.bl_media_imgWrapper>img {
+  width: 100%;
+}
+
+.bl_media_body {
+  flex: 1;
+}
+
+.bl_media_body>*:last-child {
+  margin-bottom: 0;
+}
+
+.bl_media_ttl {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.bl_media_txt {
+  /* css-wipe에서는 스타일링 없음 */
+}
+
+@media screen and (max-width: 768px) {
+  .bl_media {
+    display: block;
+  }
+  .bl_media_imgWrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.el_lv2Heading {
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  border-bottom: 4px solid #e25c00;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.ly_cont {
+  max-width: 1230px;
+  padding: 60px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hp_bgcBase {
+  background-color: #efefef !important;
+}

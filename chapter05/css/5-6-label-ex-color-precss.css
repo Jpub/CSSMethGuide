@@ -1,0 +1,13 @@
+.el_label {
+  display: inline-block;
+  padding: .2em .3em;
+  background-color: #e25c00;
+  color: #fff;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+.el_label.el_label__yellow {
+  background-color: #f1de00;
+  color: #000;
+}

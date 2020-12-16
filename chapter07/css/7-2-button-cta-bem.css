@@ -1,0 +1,49 @@
+/* button */
+.btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
+
+/* CTA */
+.cta-area {
+  padding: 30px;
+  background-color: rgba(221, 116, 44, .05);
+  border: 1px solid #e25c00;
+  text-align: center;
+}
+
+.cta-area > *:last-child {
+  margin-bottom: 0;
+}
+
+.cta-area__title {
+  padding-bottom: 10px;
+  margin-top: -6px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid currentColor;
+  color: #e25c00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* new */
+.cta-area__text {
+  margin-bottom: 40px;
+}

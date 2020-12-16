@@ -1,0 +1,63 @@
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
+
+.card__img-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.card__img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.card__body {
+  padding: 15px;
+}
+
+.card__body > *:last-child {
+  margin-bottom: 0;
+}
+
+.card__title {
+  margin-bottom: 5px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.card__text {
+  color: #777;
+}
+
+.card__badge {
+  position: relative;
+}
+
+.card__badge::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 3.75rem 3.75rem 0 0;
+  border-style: solid;
+  border-color: #e25c00 transparent transparent transparent;
+}
+
+.card__badge-text {
+  position: absolute;
+  z-index: 2;
+  top: .5rem;
+  left: .3125rem;
+  color: #fff;
+  font-size: .875rem;
+  font-weight: bold;
+  transform: rotate(-45deg);
+}
+

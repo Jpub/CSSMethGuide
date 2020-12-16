@@ -1,0 +1,43 @@
+.pager {
+  display: flex;
+  overflow-x: auto;
+}
+
+.pager__inner {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pager__inner > *:last-child {
+  margin-right: 0;
+}
+
+.pager__item {
+  margin-right: 15px;
+}
+
+.pager__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid currentColor;
+  color: #e25c00;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.pager__link:focus,
+.pager__link:hover {
+  background-color: #e25c00;
+  color: #fff;
+  opacity: .75;
+}
+
+.pager__link--active {
+  background-color: #e25c00;
+  color: #fff;
+  pointer-events: none;
+}

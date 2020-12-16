@@ -1,0 +1,102 @@
+/* heading 2 */
+
+.el_lv2Heading {
+  padding-bottom: 10px;
+  border-bottom: 4px solid #e25c00;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+/* media */
+
+.bl_media {
+  display: flex;
+  align-items: center;
+}
+
+.bl_media_imgWrapper {
+  flex: 0 1 27.58333%;
+  margin-right: 3.33333%;
+}
+
+.bl_media_imgWrapper>img {
+  width: 100%;
+}
+
+.bl_media_body {
+  flex: 1;
+}
+
+.bl_media_body>*:last-child {
+  margin-bottom: 0;
+}
+
+.bl_media_ttl {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.bl_media_txt {
+  /* css-wipeではスタイリングなし */
+}
+
+@media screen and (max-width: 768px) {
+  .bl_media {
+    display: block;
+  }
+  .bl_media_imgWrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* cta */
+.bl_cta {
+  padding: 30px;
+  background-color: rgba(221, 116, 44, .05);
+  border: 1px solid #e25c00;
+  text-align: center;
+}
+
+.bl_cta > *:last-child {
+  margin-bottom: 0;
+}
+
+.bl_cta_ttl {
+  padding-bottom: 10px;
+  margin-top: -6px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid currentColor;
+  color: #e25c00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* button */
+.el_btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.el_btn:focus,
+.el_btn:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
+
+/* button-cta-new */
+.bl_cta_txt {
+  margin-bottom: 40px;
+}

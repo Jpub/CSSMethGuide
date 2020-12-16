@@ -1,0 +1,26 @@
+.horizontal-table {
+  border: 1px solid #ddd;
+}
+
+.horizontal-table__inner {
+  width: 100%;
+}
+
+.horizontal-table__header {
+  width: 20%;
+  padding: 15px;
+  background-color: #efefef;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.horizontal-table__text {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.horizontal-table__row:last-child .horizontal-table__header, 
+.horizontal-table__row:last-child .horizontal-table__text {
+  border-bottom-width: 0;
+}

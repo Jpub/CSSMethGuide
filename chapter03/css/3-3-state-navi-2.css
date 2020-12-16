@@ -1,0 +1,35 @@
+/* 기본 스타일링 */
+.tabnav {
+  display: flex;
+}
+
+.tabnav > li {
+  border-top: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  list-style: none;
+}
+
+.tabnav > li:first-child {
+  border-left: 1px solid #aaa;
+}
+
+.tabnav > li > a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.inputtext {
+  margin-left: 40px;
+}
+
+/* 활성화 시 스타일링 */
+.is-active {
+  background-color: #0093FF;
+}
+
+.is-active > a {
+  pointer-events: none;
+  color: #fff;
+}

@@ -1,0 +1,70 @@
+/* label */
+.el_label {
+  display: inline-block;
+  padding: .2em .3em;
+  background-color: #e25c00;
+  color: #fff;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+.el_label.el_label__yellow {
+  background-color: #f1de00;
+  color: #000;
+}
+
+/* postlist */
+.bl_vertPosts {
+  /* css-wipe에서는 스타일링 없음 */
+}
+
+.bl_vertPosts_item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bl_vertPosts_item:first-child {
+  padding-top: 0;
+}
+
+.bl_vertPosts_header {
+  margin-bottom: 10px;
+}
+
+.bl_vertPosts_date {
+  font-size: .875rem;
+}
+
+.bl_vertPosts_ttl {
+  text-decoration: none;
+}
+
+.bl_vertPosts_ttl:focus,
+.bl_vertPosts_ttl:hover {
+  text-decoration: underline;
+}
+
+/* new */
+.bl_vertPosts_header > *:last-child {
+  margin-right: 0;
+}
+
+.bl_vertPosts_date {
+  margin-right: 10px;
+}
+
+.bl_vertPosts_labels {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-bottom: -10px;
+}
+
+.bl_vertPosts_labels > *:last-child {
+  margin-right: 0;
+}
+
+.bl_vertPosts_labels > li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

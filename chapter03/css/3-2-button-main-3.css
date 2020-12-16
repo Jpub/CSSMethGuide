@@ -1,0 +1,22 @@
+/* 3-2-button-main-3.css */
+/* 스트럭처 */
+#main .btn {
+  display:inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+/* 스킨 */
+.general { /* main의 ID 셀렉터를 삭제함 */
+  background-color: #e25c00;
+  color: #fff;
+}
+.warning { /* main의 ID 셀렉터를 삭제함 */
+  background-color: #f1de00;
+  color: #222;
+}
+

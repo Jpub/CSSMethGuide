@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+  .lg_only {
+    display: none !important;
+  }
+}
+
+.bl_jumbotron {
+  height: calc(69.44444vw + -233.33333px);
+  background-position: center center;
+  background-size: cover;
+}
+
+.bl_jumbotron_inner {
+  position: relative;
+  max-width: 1230px;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bl_jumbotron_ttl {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, .75);
+  color: #fff;
+  font-size: calc(1.81818vw + 14.18182px);
+  line-height: 1.5;
+  transform: translateY(-50%);
+}
+
+@media screen and (min-width: 1200px) {
+  .bl_jumbotron {
+    height: 600px;
+  }
+
+  .bl_jumbotron_ttl {
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bl_jumbotron {
+    height: 300px;
+  }
+
+  .bl_jumbotron_ttl {
+    left: 50%;
+    width: 90%;
+    padding: 15px;
+    font-size: 1.25rem;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+}

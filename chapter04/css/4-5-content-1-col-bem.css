@@ -1,0 +1,60 @@
+.media {
+  display: flex;
+  align-items: center;
+}
+
+.media__img-wrapper {
+  flex: 0 1 27.58333%;
+  margin-right: 3.33333%;
+}
+
+.media__img {
+  width: 100%;
+}
+
+.media__body {
+  flex: 1;
+}
+
+.media__body>*:last-child {
+  margin-bottom: 0;
+}
+
+.media__title {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.media__text {
+  /* css-wipe에서는 스타일링 없음 */
+}
+
+@media screen and (max-width: 768px) {
+  .media {
+    display: block;
+  }
+  .media__img-wrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.level2-heading {
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  border-bottom: 4px solid #e25c00;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.content {
+  max-width: 1230px;
+  padding: 60px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.background-color-base {
+  background-color: #efefef;
+}

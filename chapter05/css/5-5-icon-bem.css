@@ -1,0 +1,11 @@
+.before-icon::before {
+  display: inline-block;
+  margin-right: .3em;
+  color: #e25c00;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.before-icon--pdf::before {
+  content: '\f1c1';
+}

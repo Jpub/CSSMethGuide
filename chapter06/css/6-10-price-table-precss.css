@@ -1,0 +1,83 @@
+.md_only {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .md_only {
+    display: block !important;
+  }
+}
+
+.bl_priceTable table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.bl_priceTable_header {
+  padding: 10px;
+  background-color: #e25c00;
+  border-right: 1px solid currentColor;
+  color: #fff;
+  text-align: center;
+}
+
+.bl_priceTable_header:last-child {
+  border-right-width: 0;
+}
+
+.bl_priceTable_headerTtl {
+  font-size: 1.125rem;
+}
+
+.bl_priceTable_price {
+  font-size: 1.875rem;
+}
+
+.bl_priceTable_price span {
+  font-size: 1rem;
+}
+
+.bl_priceTable_bodyTtl {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.bl_priceTable td {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bl_priceTable td:last-child {
+  border-right: 1px solid #ddd;
+}
+
+.bl_priceTable tr:last-child > * {
+  border-bottom: 1px solid #ddd;
+}
+
+@media screen and (max-width: 768px) {
+  .bl_priceTable {
+    overflow-x: auto;
+  }
+
+  .bl_priceTable table {
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .bl_priceTable_bodyTtl {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 1px 0 #ddd;
+    font-size: .875rem;
+  }
+}

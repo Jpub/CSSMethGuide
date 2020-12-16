@@ -1,0 +1,25 @@
+.bullet-list {
+  /* css-wipeではスタイリングなし */
+}
+
+.bullet-list > *:last-child {
+  margin-bottom: 0;
+}
+
+.bullet-list__item {
+  position: relative;
+  padding-left: 1em;
+  margin-bottom: 10px;
+}
+
+.bullet-list__item::before {
+  content: '';
+  position: absolute;
+  top: .5em;
+  left: 0;
+  display: block;
+  width: .4em;
+  height: .4em;
+  background-color: #e25c00;
+  border-radius: 50%;
+}

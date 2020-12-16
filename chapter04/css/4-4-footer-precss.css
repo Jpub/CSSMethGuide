@@ -1,0 +1,87 @@
+.ly_footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #222;
+}
+
+.hp_btGray {
+  border-top: 1px solid #777 !important;
+}
+
+.ly_footer_inner {
+  max-width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bl_footerNav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bl_footerNav_item {
+  flex: 1;
+  text-align: center;
+}
+
+.bl_footerNav_item > *:last-child {
+  margin-bottom: 0;
+}
+
+.bl_footerNav_item:last-child .bl_footerNav_link::after {
+  content: none;
+}
+
+.bl_footerNav_link {
+  position: relative;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.bl_footerNav_link:focus,
+.bl_footerNav_link:hover {
+  text-decoration: underline;
+}
+
+.bl_footerNav_link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 15px;
+  background-color: currentColor;
+  transform: translateY(-50%);
+}
+
+.bl_footerChildNav {
+  /* css-wipe에서는 스타일링 없음 */
+}
+
+.bl_footerChildNav_item {
+  margin-bottom: 10px;
+}
+
+.bl_footerChildNav_link {
+  color: #ddd;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.bl_footerChildNav_link:focus,
+.bl_footerChildNav_link:hover {
+  text-decoration: underline;
+}
+
+.el_footerCopyright {
+  display: block;
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+}

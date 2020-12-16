@@ -1,0 +1,45 @@
+/* 3-5-card-modules-2.css */
+.bl_card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 5px;
+}
+
+.bl_3colCardUnit {
+  display: flex;
+}
+
+/* ◯: 여기에서 자녀 셀렉터를 사용해, 레이아웃 관련 내용을 지정함 */
+.bl_3colCardUnit > .bl_card {
+  width: 31.707%;
+  margin-right: 2.43902%;
+}
+
+.bl_card_imgWrapper {
+  position: relative;
+  /* padding-top: 56.25%; */
+  padding-top: 50%;
+  overflow: hidden;
+}
+
+.bl_card_imgWrapper img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.bl_card_body {
+  padding: 15px;
+}
+
+.bl_card_ttl {
+  margin-bottom: 5px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.bl_card_txt {
+  color: #777;
+}

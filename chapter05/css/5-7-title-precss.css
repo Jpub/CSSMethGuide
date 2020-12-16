@@ -1,0 +1,24 @@
+.el_lv1Heading {
+  padding:  30px 10px;
+  background-color:  #e25c00;
+  color:  #fff;
+  font-size:  1.75rem;
+  text-align:  center;
+}
+
+.el_lv1Heading > span {
+  position: relative;
+  display: inline-block;
+  transform: translateY(-20%);
+}
+
+.el_lv1Heading > span::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 80px;
+  height: 1px;
+  background-color: currentColor;
+  transform: translateX(-50%);
+}

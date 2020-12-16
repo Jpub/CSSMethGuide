@@ -1,0 +1,25 @@
+.el_beforeIconBtn {
+  position: relative;
+  display: inline-block;
+  padding: .2em .3em;
+  border: 1px solid currentColor;
+  color: #e25c00;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.el_beforeIconBtn:focus, .el_beforeIconBtn:hover {
+  background-color: #e25c00;
+  color: #fff;
+}
+
+.el_beforeIconBtn::before {
+  display: inline-block;
+  margin-right: .5em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.el_beforeIconBtn.el_beforeIconBtn__download::before {
+  content: '\f019';
+}

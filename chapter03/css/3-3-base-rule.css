@@ -1,0 +1,19 @@
+/* 요소형 셀렉터 예시 */
+body {
+  background-color: #fff;
+}
+
+/* 자녀 셀렉터 예시 */
+a > img {
+  transition: .25s;
+}
+
+/* 손자 셀렉터 예시 */
+ul li {
+  margin-bottom: 10px;
+}
+
+/* 유사 셀렉터 예시 */
+a:hover {
+  text-decoration: underline;
+}

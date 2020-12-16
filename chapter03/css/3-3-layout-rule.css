@@ -1,0 +1,27 @@
+/* ID 셀렉터 예시*/
+#header {
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+#main {
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+#footer {
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #eee;
+}
+
+/* 클래스 셀렉터 예시 */
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}

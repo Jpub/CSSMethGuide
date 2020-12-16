@@ -1,0 +1,47 @@
+.bl_orderList {
+  counter-reset: bl_orderList;
+}
+
+.bl_orderList > *:last-child {
+  margin-bottom: 0;
+}
+
+.bl_orderList > li {
+  position: relative;
+  padding-left: 1em;
+  margin-bottom: 10px;
+}
+
+.bl_orderList > li::before {
+  content: counter(bl_orderList) '. ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #e25c00;
+  font-weight: bold;
+  counter-increment: bl_orderList;
+}
+
+.bl_orderList ol {
+  margin-top: 10px;
+  counter-reset: bl_childOrderList;
+}
+
+.bl_orderList ol > *:last-child {
+  margin-bottom: 0;
+}
+
+.bl_orderList ol > li {
+  position: relative;
+  padding-left: 1em;
+  margin-top: 10px;
+}
+
+.bl_orderList ol > li::before {
+  content: counter(bl_childOrderList) '. ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #e25c00;
+  counter-increment: bl_childOrderList;
+}

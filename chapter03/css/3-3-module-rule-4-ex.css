@@ -1,0 +1,60 @@
+/* 버튼 모듈의 원래 스타일링 */
+
+.btn {
+  display: inline-block;
+  width: 300px;
+  padding: 20px 10px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.25s;
+  border-width: 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  color: #fff;
+  background-color: #DD742C;
+}
+
+.btn.btn-small {
+  width: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.btn.btn-long {
+  width: 160px;
+}
+
+/* 헤더 스타일링 */
+
+.l-header {
+  max-width: 1230px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+}
+
+.headermenu {
+  display: flex;
+  /* display: display-inside; */
+  /* justify-content: space-around; */
+  justify-content: normal;
+}
+
+li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+a {
+  position: relative;
+  display: block;
+  padding: 15px 5px;
+  border-bottom: 4px solid transparent;
+  color: #222;
+  text-decoration: none;
+  transition: .25s;
+}
+
+

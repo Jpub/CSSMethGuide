@@ -1,0 +1,80 @@
+.content--has-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__main {
+  flex: 1;
+  margin-right: 3.25203%;
+}
+
+.content__side {
+  flex: 0 0 260px;
+}
+
+@media screen and (max-width: 768px) {
+  .content--has-column {
+    flex-direction: column;
+  }
+  .content__main {
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+}
+
+.level2-heading {
+  margin-bottom: 30px
+}
+
+.level3-heading {
+  margin-top: 40px;
+  margin-bottom: 30px
+}
+
+.level4-heading {
+  margin-bottom: 20px
+}
+
+.level3-heading {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e25c00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.level4-heading {
+  padding-left: 6px;
+  border-left: 2px solid #e25c00;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.vertical-posts {
+  /* css-wipe에서는 스타일링 없음 */
+}
+
+.vertical-posts__item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.vertical-posts__item:first-child {
+  padding-top: 0;
+}
+
+.vertical-posts__header {
+  margin-bottom: 10px;
+}
+
+.vertical-posts__date {
+  font-size: .875rem;
+}
+
+.vertical-posts__title {
+  text-decoration: none;
+}
+
+.vertical-posts__title:focus, .vertical-posts__title:hover {
+  text-decoration: underline;
+}

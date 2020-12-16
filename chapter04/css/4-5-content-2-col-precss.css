@@ -1,0 +1,80 @@
+.ly_cont.ly_cont__col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ly_cont_main {
+  flex: 1;
+  margin-right: 3.25203%;
+}
+
+.ly_cont_side {
+  flex: 0 0 260px;
+}
+
+@media screen and (max-width: 768px) {
+  .ly_cont.ly_cont__col {
+    flex-direction: column;
+  }
+  .ly_cont_main {
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+}
+
+.el_lv2Heading {
+  margin-bottom: 30px
+}
+
+.el_lv3Heading {
+  margin-top: 40px;
+  margin-bottom: 30px
+}
+
+.el_lv4Heading {
+  margin-bottom: 20px
+}
+
+.el_lv3Heading {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e25c00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.el_lv4Heading {
+  padding-left: 6px;
+  border-left: 2px solid #e25c00;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.bl_vertPosts {
+  /* css-wipe에서는 스타일링 없음 */
+}
+
+.bl_vertPosts_item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bl_vertPosts_item:first-child {
+  padding-top: 0;
+}
+
+.bl_vertPosts_header {
+  margin-bottom: 10px;
+}
+
+.bl_vertPosts_date {
+  font-size: .875rem;
+}
+
+.bl_vertPosts_ttl {
+  text-decoration: none;
+}
+
+.bl_vertPosts_ttl:focus, .bl_vertPosts_ttl:hover {
+  text-decoration: underline;
+}

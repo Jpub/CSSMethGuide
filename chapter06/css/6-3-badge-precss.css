@@ -1,0 +1,63 @@
+.bl_card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
+
+.bl_card_imgWrapper {
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.bl_card_imgWrapper > img {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.bl_card_body {
+  padding: 15px;
+}
+
+.bl_card_body > *:last-child {
+  margin-bottom: 0;
+}
+
+.bl_card_ttl {
+  margin-bottom: 5px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.bl_card_txt {
+  color: #777;
+}
+
+.bl_card_badge {
+  position: relative;
+}
+
+.bl_card_badge::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 3.75rem 3.75rem 0 0;
+  border-style: solid;
+  border-color: #e25c00 transparent transparent transparent;
+}
+
+.bl_card_badge_txt {
+  position: absolute;
+  z-index: 2;
+  top: .5rem;
+  left: .3125rem;
+  color: #fff;
+  font-size: .875rem;
+  font-weight: bold;
+  transform: rotate(-45deg);
+}
+

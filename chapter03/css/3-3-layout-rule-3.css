@@ -1,0 +1,12 @@
+/* 클래스 셀렉터 예시 */
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#↓
+
+.l-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}

@@ -1,0 +1,50 @@
+.el_btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.el_btn:focus, .el_btn:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
+
+.el_btn2 {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  /* border: 2px solid transparent; */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: .25s;
+  margin-top: 20px;
+}
+
+.el_btn2:focus {
+  /* background-color: #fff; */
+  border-color: currentColor;
+  color: #ffffff;
+  border: 2px solid currentColor;
+}
+
+.el_btn2:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+  border: 2px solid currentColor;
+}

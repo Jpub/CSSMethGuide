@@ -1,0 +1,38 @@
+.l-header {
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+.l-main {
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+.l-footer {
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #eee;
+}
+
+.l-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* 가로 폭이 좁아지는 경우 */
+.l-narrow .l-header {
+  width: 960px;
+}
+
+.l-narrow .l-main {
+  width: 960px;
+}
+
+.l-narrow .l-footer {
+  width: 960px;
+}

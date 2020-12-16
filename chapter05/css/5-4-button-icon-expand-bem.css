@@ -1,0 +1,31 @@
+.before-icon-btn {
+  position: relative;
+  display: inline-block;
+  padding: .2em .3em;
+  border: 1px solid currentColor;
+  color: #e25c00;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.before-icon-btn:focus,
+.before-icon-btn:hover {
+  background-color: #e25c00;
+  color: #fff;
+}
+
+.before-icon-btn::before {
+  display: inline-block;
+  margin-right: .5em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.before-icon-btn--download::before {
+  content: '\f019';
+}
+
+.before-icon-btn--zoom::before {
+  content: '\f00e';
+  transform: translateY(-6%);
+}

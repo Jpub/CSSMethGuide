@@ -1,0 +1,24 @@
+.label {
+  display: inline-block;
+  padding: .2em .3em;
+  background-color: #e25c00;
+  color: #fff;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+.label {
+  border: 2px solid transparent;
+}
+
+.label--link {
+  text-decoration: none;
+  transition: .25s;
+}
+
+.label--link:focus,
+.label--link:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}

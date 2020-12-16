@@ -1,0 +1,62 @@
+.el_btnTheme, 
+.el_btnWarning, 
+.el_btnThemeShadowNone, 
+.el_btnThemeTextBlack, 
+.el_btnThemeShadowNoneTextBlack, 
+.el_btnWarningShadowNone, 
+.el_btnWarningTextWhite, 
+.el_btnWarningShadowNoneTextWhite {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  margin: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.el_btnTheme, 
+.el_btnThemeShadowNone, 
+.el_btnThemeTextBlack, 
+.el_btnThemeShadowNoneTextBlack {
+  background-color: #e25c00;
+  color: #fff;
+}
+
+.el_btnThemeShadowNone {
+  box-shadow: none;
+}
+
+.el_btnThemeTextBlack {
+  color: #222;
+}
+
+.el_btnThemeShadowNoneTextBlack {
+  box-shadow: none;
+  color: #222;
+}
+
+.el_btnWarning,
+.el_btnWarningShadowNone,
+.el_btnWarningTextWhite,
+.el_btnWarningShadowNoneTextWhite {
+  background-color: #f1de00;
+  color: #222;
+}
+
+.el_btnWarningShadowNone {
+  box-shadow: none;
+}
+
+.el_btnWarningTextWhite {
+  color: #fff;
+}
+
+.el_btnWarningShadowNoneTextWhite {
+  box-shadow: none;
+  color: #fff;
+}

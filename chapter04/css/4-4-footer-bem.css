@@ -1,0 +1,87 @@
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #222;
+}
+
+.footer--border-top-gray {
+  border-top: 1px solid #777;
+}
+
+.footer__inner {
+  max-width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav__item {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-nav__item > *:last-child {
+  margin-bottom: 0;
+}
+
+.footer-nav__item:last-child .footer-nav__link::after {
+  content: none;
+}
+
+.footer-nav__link {
+  position: relative;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav__link:focus,
+.footer-nav__link:hover {
+  text-decoration: underline;
+}
+
+.footer-nav__link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 15px;
+  background-color: currentColor;
+  transform: translateY(-50%);
+}
+
+.footer-child-nav {
+  /* css-wipe에서는 스타일링 없음 */
+}
+
+.footer-child-nav__item {
+  margin-bottom: 10px;
+}
+
+.footer-child-nav__link {
+  color: #ddd;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.footer-child-nav__link:focus,
+.footer-child-nav__link:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  display: block;
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+}

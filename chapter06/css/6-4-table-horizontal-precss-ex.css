@@ -1,0 +1,40 @@
+.bl_horizTable {
+  border: 1px solid #ddd;
+}
+
+.bl_horizTable table {
+  width: 100%;
+}
+
+.bl_horizTable th {
+  width: 20%;
+  padding: 15px;
+  background-color: #efefef;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.bl_horizTable td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bl_horizTable tr:last-child th,
+.bl_horizTable tr:last-child td {
+  border-bottom-width: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .bl_horizTable.bl_horizTable__mdScroll {
+    border-right-width: 0;
+    overflow-x: auto;
+  }
+  .bl_horizTable.bl_horizTable__mdScroll th,
+  .bl_horizTable.bl_horizTable__mdScroll td {
+    white-space: nowrap;
+  }
+  .bl_horizTable.bl_horizTable__mdScroll td {
+    border-right: 1px solid #ddd;
+  }
+}

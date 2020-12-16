@@ -1,0 +1,73 @@
+.accordion__body + .accordion__title {
+  margin-top: 20px;
+}
+
+.accordion__btn {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  background-color: #e25c00;
+  border: 2px solid #e25c00;
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: left;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.accordion__btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: currentColor;
+  transform: translateY(-50%);
+}
+
+.accordion__btn::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  display: block;
+  width: 2px;
+  height: 20px;
+  background-color: currentColor;
+  transform: translateY(-50%);
+}
+
+.accordion__btn:focus,
+.accordion__btn:hover {
+  background-color: #fff;
+  color: #e25c00;
+}
+
+.accordion__btn--active::after {
+  content: none;
+}
+
+.accordion__body {
+  display: none;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.accordion__body > *:first-child {
+  /* css-wipe에는 스타일링 없음 */
+}
+
+.accordion__body > *:last-child {
+  margin-bottom: 0;
+}
+
+.accordion__body--active {
+  display: block;
+}
+
+.accordion__text {
+  margin-bottom: 20px;
+}

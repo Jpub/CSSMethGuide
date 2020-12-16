@@ -1,0 +1,66 @@
+.faq {
+  /* css-wipe에는 스타일링 없음 */
+}
+
+.faq > *:last-child {
+  margin-bottom: 0;
+}
+
+.faq__row {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: content-box;
+  min-height: 45px;
+  padding-left: 60px;
+}
+
+.faq__row--question {
+  margin-bottom: 15px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.faq__question-text {
+  padding-top: 12px;
+}
+
+.faq__row--answer {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.faq__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-weight: normal;
+  line-height: 45px;
+  text-align: center;
+}
+
+.faq__icon--question {
+  background-color: #e25c00;
+  color: #fff;
+}
+
+.faq__icon--answer {
+  background: #efefef;
+  color: #e25c00;
+}
+
+.faq__answer-body {
+  padding-top: 12px;
+}
+
+.faq__answer-body>*:last-child {
+  margin-bottom: 0;
+}
+
+.faq__answer-text {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,41 @@
+.bl_halfMedia {
+  display: flex;
+  align-items: center;
+}
+
+.bl_halfMedia_imgWrapper {
+  flex: 0 1 48.33333%;
+  margin-right: 3.33333%;
+}
+
+.bl_halfMedia_imgWrapper>img {
+  width: 100%;
+}
+
+.bl_halfMedia_body {
+  flex: 1;
+}
+
+.bl_halfMedia_body > *:last-child {
+  margin-bottom: 0;
+}
+
+.bl_halfMedia_ttl {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.bl_halfMedia_txt {
+  /* css-wipe에서는 스타일링 없음 */
+}
+
+@media screen and (max-width: 768px) {
+  .bl_halfMedia {
+    display: block;
+  }
+  .bl_halfMedia_imgWrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

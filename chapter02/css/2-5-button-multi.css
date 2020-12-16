@@ -1,0 +1,31 @@
+.el_btn {
+    display: inline-block;
+    width: 300px;
+    max-width: 100%;
+    padding: 20px 10px;
+    margin: 10px;
+    background-color: #e25c00;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.hp_warning {
+    background-color: #f1de00;
+    color: #222;
+}
+
+.hp_bxshNone {
+    box-shadow: none;
+}
+
+.hp_textBlack {
+    color: #222;
+}
+
+.hp_textWhite {
+    color: #fff;
+}

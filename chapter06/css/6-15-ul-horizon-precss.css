@@ -1,0 +1,41 @@
+.bl_bulletList {
+  /* css-wipe에는 스타일링 없음 */
+}
+
+.bl_bulletList > *:last-child {
+  margin-bottom: 0;
+}
+
+.bl_bulletList > li {
+  position: relative;
+  padding-left: 1em;
+  margin-bottom: 10px;
+}
+
+.bl_bulletList > li::before {
+  content: '';
+  position: absolute;
+  top: .5em;
+  left: 0;
+  display: block;
+  width: .4em;
+  height: .4em;
+  background-color: #e25c00;
+  border-radius: 50%;
+}
+
+.bl_bulletList.bl_bulletList__horiz {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -10px;
+}
+
+.bl_bulletList.bl_bulletList__horiz > li {
+  flex: calc(50% - 5px);
+  margin-right: 10px;
+}
+
+.bl_bulletList.bl_bulletList__horiz > li:nth-of-type(even) {
+  margin-right: 0;
+}

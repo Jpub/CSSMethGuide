@@ -1,0 +1,23 @@
+.el_beforeIcon::before {
+  display: inline-block;
+  margin-right: .3em;
+  color: #e25c00;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+.el_beforeIcon.el_beforeIcon__pdf::before {
+  content: '\f1c1';
+}
+
+.el_beforeIcon.el_beforeIcon__excel::before {
+  content: '\f1c3';
+}
+
+.el_beforeIcon.el_beforeIcon__PP::before {
+  content: '\f1c4';
+}
+
+.el_beforeIcon.el_beforeIcon__checkSquare::before {
+  content: '\f14a';
+}

@@ -1,0 +1,30 @@
+.vertical-posts {
+  /* css-wipe에는 스타일링 없음 */
+}
+
+.vertical-posts__item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.vertical-posts__item:first-child {
+  padding-top: 0;
+}
+
+.vertical-posts__header {
+  margin-bottom: 10px;
+}
+
+.vertical-posts__date {
+  font-size: .875rem;
+}
+
+.vertical-posts__title {
+  text-decoration: none;
+}
+
+.vertical-posts__title:focus,
+.vertical-posts__title:hover {
+  text-decoration: underline;
+}

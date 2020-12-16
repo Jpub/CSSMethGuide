@@ -1,0 +1,41 @@
+.half-media {
+  display: flex;
+  align-items: center;
+}
+
+.half-media__img-wrapper {
+  flex: 0 1 48.33333%;
+  margin-right: 3.33333%;
+}
+
+.half-media__img {
+  width: 100%;
+}
+
+.half-media__body {
+  flex: 1;
+}
+
+.half-media__body > *:last-child {
+  margin-bottom: 0;
+}
+
+.half-media__title {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.half-media__text {
+  /* css-wipe에서는 스탕일링 없음 */
+}
+
+@media screen and (max-width: 768px) {
+  .half-media {
+    display: block;
+  }
+  .half-media__img-wrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,43 @@
+.bl_pager {
+  display: flex;
+  overflow-x: auto;
+}
+
+.bl_pager_inner {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bl_pager_inner > *:last-child {
+  margin-right: 0;
+}
+
+.bl_pager_inner > li {
+  margin-right: 15px;
+}
+
+.bl_pager_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid currentColor;
+  color: #e25c00;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.bl_pager_link:focus,
+.bl_pager_link:hover {
+  background-color: #e25c00;
+  color: #fff;
+  opacity: .75;
+}
+
+.bl_pager_link.is_active {
+  background-color: #e25c00;
+  color: #fff;
+  pointer-events: none;
+}

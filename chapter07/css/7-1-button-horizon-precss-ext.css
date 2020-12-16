@@ -1,0 +1,73 @@
+.el_btn,
+.el_btn2,
+.el_btn3 {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.el_btn:focus, 
+.el_btn:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
+
+.el_btn.el_btn__yellow {
+  background-color: #f1de00;
+  color: #222;
+}
+
+.el_btn.el_btn__yellow:focus,
+.el_btn.el_btn__yellow:hover {
+  border-color: #f1de00;
+  background-color: #fff;
+}
+
+.bl_horizBtnList {
+  display: flex;
+  justify-content: center;
+}
+
+.bl_horizBtnList > *:last-child {
+  margin-right: 0;
+}
+
+.bl_horizBtnList > li {
+  flex: 1 1 0;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.bl_horizBtnList .el_btn {
+  /* display: inline-flex; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* height: 100%; */
+}
+
+.bl_horizBtnList .el_btn2 {
+  /* display: inline-flex; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bl_horizBtnList .el_btn3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}

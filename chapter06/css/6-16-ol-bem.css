@@ -1,0 +1,23 @@
+.order-list {
+  counter-reset: order-list;
+}
+
+.order-list > *:last-child {
+  margin-bottom: 0;
+}
+
+.order-list__item {
+  position: relative;
+  padding-left: 1em;
+  margin-bottom: 10px;
+}
+
+.order-list__item::before {
+  content: counter(order-list) '. ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #e25c00;
+  font-weight: bold;
+  counter-increment: order-list;
+}
