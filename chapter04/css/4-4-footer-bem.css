@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-.footer-nav__item > *:last-child {
+.footer-nav__item>*:last-child {
   margin-bottom: 0;
 }
 
@@ -44,8 +44,7 @@
   text-decoration: none;
 }
 
-.footer-nav__link:focus,
-.footer-nav__link:hover {
+.footer-nav__link:focus, .footer-nav__link:hover {
   text-decoration: underline;
 }
 
@@ -74,8 +73,7 @@
   text-decoration: none;
 }
 
-.footer-child-nav__link:focus,
-.footer-child-nav__link:hover {
+.footer-child-nav__link:focus, .footer-child-nav__link:hover {
   text-decoration: underline;
 }
 

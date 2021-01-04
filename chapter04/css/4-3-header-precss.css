@@ -13,13 +13,11 @@
   transition: .25s;
 }
 
-.el_btn:focus,
-.el_btn:hover {
+.el_btn:focus, .el_btn:hover {
   background-color: #fff;
   border-color: currentColor;
   color: #e25c00;
 }
-
 
 .ly_header {
   padding-top: 20px;

@@ -12,10 +12,10 @@
 
 #main .general {
   background-color: #e25c00;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  color: #fff;
 }
 
 #main .warning {
   background-color: #f1de00;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  color: #222;
 }

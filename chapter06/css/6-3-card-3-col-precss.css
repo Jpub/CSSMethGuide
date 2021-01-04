@@ -5,7 +5,7 @@
 .bl_card_imgWrapper {
   position: relative;
   padding-top: 56.25%;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .bl_card_imgWrapper > img {

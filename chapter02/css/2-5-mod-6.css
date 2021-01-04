@@ -19,7 +19,7 @@ body {
 /* 모듈
   ======================================== */
 
-.bl_module  {
+.bl_module {
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -46,7 +46,7 @@ body {
   font-weight: bold;
 }
 
-.bl_module_body > span {
+.bl_module_body>span {
   color: #555;
   font-size: 14px;
 }

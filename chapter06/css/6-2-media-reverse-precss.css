@@ -8,7 +8,7 @@
   margin-right: 3.33333%;
 }
 
-.bl_media_imgWrapper > img {
+.bl_media_imgWrapper>img {
   width: 100%;
 }
 
@@ -16,7 +16,7 @@
   flex: 1;
 }
 
-.bl_media_body > *:last-child {
+.bl_media_body>*:last-child {
   margin-bottom: 0;
 }
 

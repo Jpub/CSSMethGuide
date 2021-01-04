@@ -19,6 +19,7 @@
   transition: 0.25s;
 }
 
+/* 추가한 코드 */
 .el_btnTheme, 
 .el_btnThemeShadowNone, 
 .el_btnThemeTextBlack, 
@@ -27,35 +28,42 @@
   color: #fff;
 }
 
+/* 추가한 코드 */
 .el_btnThemeShadowNone {
   box-shadow: none;
 }
 
+/* 추가한 코드 */
 .el_btnThemeTextBlack {
   color: #222;
 }
 
+/* 추가한 코드 */
 .el_btnThemeShadowNoneTextBlack {
   box-shadow: none;
   color: #222;
 }
 
-.el_btnWarning,
-.el_btnWarningShadowNone,
-.el_btnWarningTextWhite,
+/* 추가한 코드 */
+.el_btnWarning, 
+.el_btnWarningShadowNone, 
+.el_btnWarningTextWhite, 
 .el_btnWarningShadowNoneTextWhite {
   background-color: #f1de00;
   color: #222;
 }
 
+/* 추가한 코드 */
 .el_btnWarningShadowNone {
   box-shadow: none;
 }
 
+/* 추가한 코드 */
 .el_btnWarningTextWhite {
   color: #fff;
 }
 
+/* 추가한 코드 */
 .el_btnWarningShadowNoneTextWhite {
   box-shadow: none;
   color: #fff;

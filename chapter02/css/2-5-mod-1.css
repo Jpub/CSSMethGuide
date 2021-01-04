@@ -1,40 +1,59 @@
+/* 베이스
+  ======================================== */
+
+body {
+    font-family: sans-serif;
+}
+
+/* 레이아웃
+  ======================================== */
+
+.ly_cont {
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* 모듈
+  ======================================== */
+
 #main span {
-  color: #555;
-  font-size: 14px; 
+    color: #555;
+    font-size: 14px;
 }
-#main div.module.main-module {
-  /* 좌우 가운데 정렬을 위한 설정 */
-  max-width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  /* 모듈에 대한 설정 */
-  display: flex;
-  align-items: center;
-  font-family: sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+
+#main div.bl_module.main-module {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
 }
-#main div.module.main-module figure {
-  flex: 1 1 25%;
-  margin-right: 3.33333%;
+
+#main div.bl_module.main-module figure {
+    flex: 1 1 25%;
+    margin-right: 3.33333%;
 }
-#main div.module.main-module img {
-  width: 100%;
-  vertical-align: top;
+
+#main div.bl_module.main-module img {
+    width: 100%;
+    vertical-align: top;
 }
-#main div.module.main-module div {
-  flex: 1 1 68.33333%;
+
+#main div.bl_module.main-module div {
+    flex: 1 1 68.33333%;
 }
-#main div.module.main-module h2 {
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: bold;
+
+#main div.bl_module.main-module h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
-#main div.module.main-module h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 16px;
-  border-bottom: 1px solid #555;
+
+#main div.bl_module.main-module h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #555;
 }

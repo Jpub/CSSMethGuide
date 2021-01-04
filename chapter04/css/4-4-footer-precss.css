@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-.bl_footerNav_item > *:last-child {
+.bl_footerNav_item>*:last-child {
   margin-bottom: 0;
 }
 
@@ -44,8 +44,7 @@
   text-decoration: none;
 }
 
-.bl_footerNav_link:focus,
-.bl_footerNav_link:hover {
+.bl_footerNav_link:focus, .bl_footerNav_link:hover {
   text-decoration: underline;
 }
 
@@ -74,8 +73,7 @@
   text-decoration: none;
 }
 
-.bl_footerChildNav_link:focus,
-.bl_footerChildNav_link:hover {
+.bl_footerChildNav_link:focus, .bl_footerChildNav_link:hover {
   text-decoration: underline;
 }
 

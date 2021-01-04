@@ -16,7 +16,7 @@
   flex: 1;
 }
 
-.media__body > *:last-child {
+.media__body>*:last-child {
   margin-bottom: 0;
 }
 
@@ -34,7 +34,6 @@
   .media {
     display: block;
   }
-
   .media__img-wrapper {
     margin-right: 0;
     margin-bottom: 20px;

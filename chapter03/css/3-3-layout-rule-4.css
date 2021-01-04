@@ -25,6 +25,7 @@
 }
 
 /* 가로 폭이 좁아지는 경우 */
+
 .l-narrow .l-header {
   width: 960px;
 }

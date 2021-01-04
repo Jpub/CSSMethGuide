@@ -1,3 +1,4 @@
+/* 스트럭처 */
 .btn {
     display: inline-block;
     width: 300px;
@@ -10,12 +11,12 @@
     text-align: center;
 }
 
+/* 스킨 */
 .general {
     background-color: #e25c00;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    color: #fff;
 }
-
 .warning {
     background-color: #f1de00;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    color: #222;
 }
