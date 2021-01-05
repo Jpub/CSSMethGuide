@@ -36,7 +36,7 @@ body {
     vertical-align: top;
 }
 
-#main div.bl_module.main-module .body {
+#main .bl_module.main-module .body {
     flex: 1 1 68.33333%;
 }
 
